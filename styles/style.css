@@ -1,0 +1,47 @@
+/* начало шапки */
+
+.header {
+	margin: 0;
+	padding: 92px 24px 96px;
+	display: grid;
+	grid-template-columns: 1fr min-content 1fr;
+}
+
+.header__menu {
+	display: grid;
+	align-items: center;
+}
+
+.header__links-list {
+	display: flex;
+	list-style-type: circle;
+}
+
+.header__links-list li {
+	margin: 15px;
+}
+
+.header__logo-image {
+	width: 130px;
+	height: 104px;
+}
+
+.header__address {
+	justify-self: end;
+	height: 98px;
+	width: 185px;
+}
+
+
+/* конец шапки */
+
+
+/* секция 1 начало */
+
+.cover {
+	display: block;
+	height: 757px;
+	background-image: url("../images/cover.jpg");
+}
+
+/* секция 1 конец */
