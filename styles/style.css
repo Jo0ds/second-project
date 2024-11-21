@@ -27,6 +27,10 @@
 	margin: 15px;
 }
 
+.header__links-list-item a {
+	letter-spacing: 0.01em;
+}
+
 .header__links-list-item_no-bullet {
 	margin: 15px 15px 15px 0;
 	list-style-type: none;
@@ -39,6 +43,7 @@
 .header__link {
 	border-bottom: 1px solid #000;
 	text-decoration: 0;
+
 }
 /* меню конец */
 
@@ -75,4 +80,4 @@
 	background-image: url("../images/cover.jpg");
 }
 
-/* секция 1 ко нец */
+/* секция 1 конец */
