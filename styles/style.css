@@ -7,6 +7,8 @@
 	grid-template-columns: 1fr min-content 1fr;
 }
 
+/* меню начало */
+
 .header__menu {
 	display: grid;
 	align-items: center;
@@ -19,20 +21,46 @@
 
 .header__links-list li {
 	margin: 15px;
+	text-transform: lowercase;
 }
 
+.header__links-list-item_no-bullet {
+	list-style-type: none;
+
+}
+
+.header__link_active {
+	text-decoration: 0;
+}
+
+.header__link {
+	border-bottom: 1px solid #000;
+	text-decoration: 0;
+}
+/* меню конец */
+
+
 .header__logo-image {
-	width: 130px;
-	height: 104px;
+	width: 148px;
+	height: 105px;
 }
 
 .header__address {
 	justify-self: end;
 	height: 98px;
-	width: 185px;
+	width: 206px;
 }
 
+.header__address  a {
+	text-decoration: 0;
+	border-bottom: 1px solid #000
 
+}
+
+.address {
+	font-style: normal;
+	border-bottom: 0;
+}
 /* конец шапки */
 
 
