@@ -43,8 +43,8 @@
 	text-decoration: 0;
 
 }
-/* меню конец */
 
+/* меню конец */
 
 .header__logo-image {
 	width: 148px;
@@ -52,6 +52,8 @@
 }
 
 .header__address {
+	margin-top: 8px;
+    margin-right: 36px;
 	justify-self: end;
 	height: 98px;
 	width: 206px;
@@ -60,13 +62,13 @@
 .header__address  a {
 	text-decoration: 0;
 	border-bottom: 1px solid #000
-
 }
 
 .address {
 	font-style: normal;
 	border-bottom: 0;
 }
+
 /* конец шапки */
 
 
