@@ -2,7 +2,7 @@
 
 .header {
 	margin: 0;
-	padding: 92px 24px 96px;
+	padding: 92px 50px 96px;
 	display: grid;
 	grid-template-columns: 1fr min-content 1fr;
 }
@@ -20,13 +20,16 @@
 }
 
 .header__links-list li {
-	margin: 15px;
 	text-transform: lowercase;
 }
 
-.header__links-list-item_no-bullet {
-	list-style-type: none;
+.header__links-list-item {
+	margin: 15px;
+}
 
+.header__links-list-item_no-bullet {
+	margin: 15px 15px 15px 0;
+	list-style-type: none;
 }
 
 .header__link_active {
