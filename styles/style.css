@@ -1,13 +1,13 @@
-/* начало шапки */
+/* свойство самой шапки начало */
 
 .header {
 	margin: 0;
-	padding: 92px 50px 96px;
+	padding: 92px 50px 90px;
 	display: grid;
 	grid-template-columns: 1fr min-content 1fr;
 }
 
-/* меню начало */
+/* свойства меню начало */
 
 .header__menu {
 	display: grid;
@@ -44,13 +44,18 @@
 
 }
 
-/* меню конец */
+/* свойства меню конец */
+
+/* свойства логотипа начало */
 
 .header__logo-image {
 	width: 148px;
 	height: 105px;
 }
 
+/* свойства логотипа конец */
+
+/* свойства адресса начало */
 .header__address {
 	margin-top: 6px;
     margin-right: 32px;
@@ -68,16 +73,71 @@
 	font-style: normal;
 	border-bottom: 0;
 }
+/* свойства адресса конец */
 
 /* конец шапки */
+
 
 
 /* секция 1 начало */
 
 .cover {
+	position: relative;
 	display: block;
 	height: 757px;
+	width: 1100px;
 	background-image: url("../images/cover.jpg");
+	background-repeat: no-repeat ;
+	background-size: cover;
+	z-index: -1;
+}
+
+
+.overlay {
+	position: absolute;
+	height: 757px;
+	width: 1100px;
+	background-color: #000;
+	opacity: 0.6;
+}
+
+.cover__title {
+	width: 1000px;
+	height: 355px;
+	inset: 165px 50px 237px 50px;
+	position: absolute;
+	z-index: 1;
+	color: #fff;
+}
+
+.cover__description {
+	display: flex;
+	z-index: 1;
+	color: #fff;
+}
+
+.cover__description-text {
+	position: absolute;
+	inset: 667px 385px 62px 78px;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 127%;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.bet-button {
+	position: absolute;
+	inset: 655px 50px 51px 794px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	width: 256px;
+	height: 51px;
+	font-weight: 500;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
 }
 
 /* секция 1 конец */
