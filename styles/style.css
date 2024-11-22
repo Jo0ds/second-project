@@ -104,10 +104,44 @@
 .cover__title {
 	width: 1000px;
 	height: 355px;
-	inset: 165px 50px 237px 50px;
+}
+
+.aligned-text {
 	position: absolute;
-	z-index: 1;
+	inset: 165px 734px 477px 50px;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 115%;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	color: #fff
+}
+
+.aligned-text_center {
+	position: absolute;
+	inset: 300px 395px 357px 336px;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 100%;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
 	color: #fff;
+}
+
+.aligned-text_right{
+	position: absolute;
+	inset: 420px 50px 237px 633px;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 100%;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	text-align: right;
+	color: #fff;
+}
+
+.letter-spacing-extended { 
+	letter-spacing: 0.6em;
 }
 
 .cover__description {
